@@ -1,0 +1,44 @@
+body{
+    font-family: 'Monaco', monospace, sans-serif;
+    background-color: #aaaaaa;
+}
+
+.landing h1{
+    color: #1a472a;
+    font-size: 200px;
+    font-weight: bolder;
+}
+
+.landing ul{
+    text-align: right;
+    list-style: none;
+    font-size: 50px;
+    
+}
+
+.landing ul li{
+    text-decoration: line-through;
+}
+
+.wrapper{
+    border: 5px solid  #5d5d5d;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    color: #1a472a;
+}
+
+h2{
+    color: #2a623d;
+}
+
+.wrapper ul li{
+    list-style: square;
+}
+
+ol li{
+    list-style-type: lower-roman;
+}
+
