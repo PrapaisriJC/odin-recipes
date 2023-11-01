@@ -1,12 +1,26 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
 body{
     font-family: 'Monaco', monospace, sans-serif;
     background-color: #aaaaaa;
 }
 
 .landing h1{
-    color: #1a472a;
+    color: #aaaaaa;
+    background-color: #1a472a;
     font-size: 200px;
     font-weight: bolder;
+
+    width: 80vw;
+    height: auto;
+    padding: 60px 10px 50px 20px;
 }
 
 .landing ul{
@@ -23,7 +37,8 @@ body{
 .wrapper{
     border: 5px solid  #5d5d5d;
     padding: 10px;
-    margin: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 h1{
@@ -38,7 +53,10 @@ h2{
     list-style: square;
 }
 
-ol li{
-    list-style-type: lower-roman;
+.recipe-desc{
+    text-align: left;
+    
+    width: 100%;
+    
 }
 
